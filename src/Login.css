@@ -1,0 +1,183 @@
+/* Login.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Fallback font */
+  }
+  
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .bg-gray-100 {
+    background-color: #f7fafc; /* Light gray */
+  }
+  
+  .bg-white {
+    background-color: #ffffff; /* White */
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem; /* 0.5rem corresponds to rounded-lg */
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .max-w-4xl {
+    max-width: 64rem; /* 4xl corresponds to 64rem */
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .p-8 {
+    padding: 2rem; /* 2rem corresponds to p-8 */
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem; /* 2xl */
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .mb-6 {
+    margin-bottom: 1.5rem; /* 1.5rem corresponds to mb-6 */
+  }
+  
+  .space-x-6 > * + * {
+    margin-left: 1.5rem; /* Space between buttons */
+  }
+  
+  .mt-8 {
+    margin-top: 2rem; /* 2rem corresponds to mt-8 */
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem; /* 1rem corresponds to mb-4 */
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .text-gray-700 {
+    color: #4a5568; /* Dark gray */
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .border {
+    border: 1px solid #cbd5e0; /* Light gray */
+  }
+  
+  .focus\:outline-none:focus {
+    outline: none;
+  }
+  
+  .focus\:ring-2:focus {
+    ring-width: 2px; /* Custom focus ring */
+  }
+  
+  .focus\:ring-yellow-500:focus {
+    ring-color: #f6e05e; /* Yellow */
+  }
+  
+  .mr-2 {
+    margin-right: 0.5rem; /* Margin right */
+  }
+  
+  .bg-yellow-500 {
+    background-color: #f6e05e; /* Yellow */
+  }
+  
+  .text-white {
+    color: #ffffff; /* White */
+  }
+  
+  .hover\:bg-yellow-600:hover {
+    background-color: #ecc94b; /* Darker yellow on hover */
+  }
+  
+  .transition {
+    transition: background-color 0.2s; /* Transition duration */
+  }
+  
+  .text-gray-500 {
+    color: #a0aec0; /* Gray */
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .space-x-4 > * + * {
+    margin-left: 1rem; /* Space between icons */
+  }
+  
+  .bg-gray-100 {
+    background-color: #f7fafc; /* Light gray */
+  }
+  
+  .h-10 {
+    height: 2.5rem; /* Height for badges */
+  }
+  
+  .bg-gray-50 {
+    background-color: #f9fafb; /* Light gray */
+  }
+  
+  .items-start {
+    align-items: flex-start;
+  }
+  
+  .mt-8 {
+    margin-top: 2rem; /* Margin top */
+  }
+  
+  ul {
+    padding-left: 1.25rem; /* For list items */
+    list-style-type: none; /* Remove bullet points */
+  }
+  
+  .space-y-4 > * + * {
+    margin-top: 1rem; /* Space between list items */
+  }
+  
+  .text-green-500 {
+    color: #48bb78; /* Green color */
+  }
+  
+  .mr-2 {
+    margin-right: 0.5rem; /* Right margin for green check */
+  }
+  
+  
