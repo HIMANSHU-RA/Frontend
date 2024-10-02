@@ -333,3 +333,121 @@ margin-left: 5px;
    background-color: #FFB100;
    padding: 15px;
 }
+/* General responsive settings for smaller screens */
+@media (max-width: 1024px) {
+  .login-box {
+    flex-direction: column; 
+    max-width: 100%;
+  }
+
+  .form-section, 
+  .features-section {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .login-button,
+  .signup-button {
+    width: 100%;
+  }
+
+  .submit-button, 
+  .social-login {
+    width: 100%;
+  }
+
+  .social-icons {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .social-button {
+    width: 35px;
+    height: 35px;
+  }
+
+  .features-section {
+    align-items: center; 
+    text-align: center;
+  }
+
+  .promo-container {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .promo-text {
+    margin-left: 0;
+    margin-top: 1rem;
+    text-align: center;
+  }
+}
+
+/* For tablet devices */
+@media (max-width: 768px) {
+  .button-group {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+
+  .features-section {
+    align-items: center;
+  }
+
+  .welcome-text {
+    font-size: 1.25rem;
+  }
+
+  .password-input, .submit-button, .social-login {
+    width: 100%;
+  }
+
+  .password-section {
+    flex-direction: column;
+  }
+
+  .password-buttons {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .login-container {
+    padding: 1rem;
+  }
+
+  .welcome-text {
+    font-size: 1.2rem;
+  }
+
+  .features-section {
+    padding: 1rem;
+    align-items: center;
+  }
+
+  .features-list, .promo-text p {
+    font-size: 14px;
+  }
+
+  .password-input {
+    width: 100%;
+  }
+
+  .promo-container {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .promo-text {
+    font-size: 0.9rem;
+  }
+
+  .app-buttons img {
+    width: 80px;
+  }
+}
